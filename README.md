@@ -8,3 +8,47 @@ Music and 3rd party images are not included in this repository. The links to the
 | No. | Scenes                 | link to source code            | Resposible             | Music           |
 | :---| :----------------------| :----------------------| :----------------------| :---------------|
 |     | Cats                   |                        | samcarter              |                 |
+
+
+# First ideas
+
+## Hippos
+
+Four Hippos (2 male, 2 female)
+Music 1:00 - 1:20 
+https://www.youtube.com/watch?v=3BPcImSZG8E
+
+## Silent night (organ music)
+
+Tikzling choir in front; 
+background: ![](./Storyboard/drafts/silentnightback.jpeg)
+
+## TUG / Rochester
+
+Music:  Yankee Doodle; marching ducks with the Star Spangled Banner (maybe early version), background photo of Rochester
+https://youtu.be/6HOc9WVZbts 0:36 - 0:50
+Flag https://node01.flagstat.net/media/catalog/product/detail/2082.png
+
+or
+
+It seems there are some very impressive water falls in Rochester, e.g. 
+https://commons.wikimedia.org/wiki/Category:High_Falls_of_the_Genesee_River#/media/File:Rochester_HighFalls_Night.JPG
+Maybe a fearless tikzduck could swim there? 
+
+
+## Cats
+
+
+## CTAN praise
+
+A celebration of the CTAN team would be awesome, perhaps an office and a 
+duck or another tikzling with those phone headsets and a computer to 
+symbolize support... Then a huge gift with a card "with love, the LaTeX3 
+
+I like Paulo's idea to make an office with computer etc. Maybe one could even 
+add a tiny conveyor belt that runs into the computer with lots of ordinary 
+brown packages and then a big and colourful L3 package between them. This 
+could even use the cool duck gift paper from Ulrike  
+
+
+
