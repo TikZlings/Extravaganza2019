@@ -38,6 +38,8 @@ Maybe a fearless tikzduck could swim there?
 
 ## Cats
 
+Night sky, large moon with a mouse, a cat singing memories.
+
 
 ## CTAN praise
 
@@ -50,5 +52,14 @@ add a tiny conveyor belt that runs into the computer with lots of ordinary
 brown packages and then a big and colourful L3 package between them. This 
 could even use the cool duck gift paper from Ulrike  
 
+Title "CTAN factory".  Packages that run into the computer and come out again 
+as colorful packages would be nice.  
+
+## Football 
+
+Football in the middle; Gianna Nannini on top; football ducks around  
+singing: 
+
+> 1:25 - 1:55 https://youtu.be/9oU2XCi7fQA 
 
 
