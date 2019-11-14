@@ -8,6 +8,10 @@ Music and 3rd party images are not included in this repository. The links to the
 | No. | Scenes                 | link to source code            | Resposible             | Music           |
 | :---| :----------------------| :----------------------| :----------------------| :---------------|
 |     | Cats                   |                        | samcarter              |                 |
+|     | Hippos                 |./Ulrike/Hippos/hippos.tex| Ulrike              |                 |
+|     | Wildwest               |./Ulrike/WildWest/wildwest.tex                  | Ulrike              |                 |
+
+
 
 
 # First ideas
