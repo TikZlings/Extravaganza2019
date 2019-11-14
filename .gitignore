@@ -37,6 +37,8 @@
 *.prj
 *.prj.bak
 hippos.gif
+wildwest.gif
+*.yaml
 
 tmp
 CombineVideos/*.mp4
