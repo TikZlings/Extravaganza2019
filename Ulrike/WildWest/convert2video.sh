@@ -11,7 +11,7 @@ ffmpeg -ss 00:00:00 -i wildwest-%d.png -ss 00:01:30 -i Mundharmonika.m4a -shorte
 HandBrakeCLI --crop 0:0:0:0  -i wildwest_raw.mp4 -o wildwest.mp4
 
 # clean up
-#rm wildwest-*.png
+rm wildwest-*.png
 rm wildwest_raw.mp4
 
 # view :)
