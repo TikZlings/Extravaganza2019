@@ -1,0 +1,45 @@
+\documentclass{beamer}
+
+%\setbeamercolor{background canvas}{bg=black}
+
+\setbeamertemplate{background canvas}{}
+\setbeamertemplate{background}{}
+\setbeamertemplate{navigation symbols}{}
+\usepackage{tikz}
+\pgfmathsetseed{\number\pdfrandomseed}
+
+\def\xmin{-30}
+\def\xmax{1.1\paperwidth}
+\def\ymin{0}
+\def\ymax{1.1\paperheight}
+
+\begin{document}
+\begin{frame}
+\begin{tikzpicture}[remember picture, overlay]
+
+\foreach \i in {0,...,200}{
+
+	\pgfmathsetmacro{\x}{rnd}%
+	\pgfmathsetmacro{\y}{rnd}%
+	\pgfmathsetmacro{\s}{rnd}%
+
+	\fill[white!90!yellow] ({\x*(\xmax-\xmin)+\xmin},{\y*(\ymax-\ymin)-.5*\ymax}) circle (0.01);
+
+}	
+\end{tikzpicture}
+\end{frame}
+\begin{frame}
+\begin{tikzpicture}[remember picture, overlay]
+
+\foreach \i in {0,...,200}{
+
+	\pgfmathsetmacro{\x}{rnd}%
+	\pgfmathsetmacro{\y}{rnd}%
+	\pgfmathsetmacro{\s}{rnd}%
+
+	\fill[white!90!yellow] ({\x*(\xmax-\xmin)+\xmin},{\y*(\ymax-\ymin)-.5*\ymax}) circle (0.01);
+
+}	
+\end{tikzpicture}
+\end{frame}
+\end{document}
