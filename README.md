@@ -5,11 +5,11 @@ The full video is available from ...
 
 Music and 3rd party images are not included in this repository. The links to the songs can be found in the file ./Storyboard2019/music.txt, links to 3rd party images are for the most part given in the code of the individual scenes.
 
-| No. | Scenes                 | link to source code            | Resposible             | Music           |
+| No. | Scenes                 | link to source code            | Resposible             | Video           | 
 | :---| :----------------------| :----------------------| :----------------------| :---------------|
 |     | Cats                   |                        | samcarter              |                 |
 |     | Hippos                 |./Ulrike/Hippos/hippos.tex| Ulrike              |                 |
-|     | Wildwest               |./Ulrike/WildWest/wildwest.tex                  | Ulrike              |                 |
+|     | Wildwest               |./Ulrike/WildWest/wildwest.tex                  | Ulrike              |   [video](https://github.com/samcarter/Extravanganza2019/releases/download/video/wildwest.mp4)         |
 
 
 
