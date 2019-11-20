@@ -1,0 +1,63 @@
+% !Mode:: "TeX:UTF-8:Main"
+\documentclass{article}
+\usepackage[utf8]{inputenc} %probably not needed ...
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{papersize={128mm,96mm},margin=0.5cm} 
+\usepackage[x11names,svgnames]{xcolor}
+\usepackage{tikzducks}
+\usepackage{scsnowman}
+\usepackage{tikzpeople,eso-pic,tikzlings,xfp}
+\usetikzlibrary{shadings}
+\pagestyle{empty} %cat hippo panda pig rhino
+\parindent=0pt
+\definecolor{pskin}{RGB}{255,200,184}%
+\definecolor{phair}{RGB}{249,249,139}%
+\definecolor{mggreen}{RGB}{37,166,89}
+\colorlet{treecolor}{LawnGreen!50!black}
+\tikzset{tree/.pic={
+    \begin{scope}[scale=0.2]	
+    \filldraw[brown] (-.5,-.5) rectangle ++(1,1.5);
+	\filldraw[treecolor] (0,1)
+	to[bend right] ++(4,0)
+	to[bend left] ++(-3,2)
+	to[bend right] ++(2,0)
+	to[bend left] ++(-2.5,2)
+	to[bend right] ++(1,0)
+	to[bend left] ++(-1.5,2)
+	-- cycle;
+	\filldraw[treecolor] (0,1)
+	to[bend left] ++(-4,0)
+	to[bend right] ++(3,2)
+	to[bend left] ++(-2,0)
+	to[bend right] ++(2.5,2)
+	to[bend left] ++(-1,0)
+	to[bend right] ++(1.5,2)
+	-- cycle;
+	\begin{scope}[shift={(-.6,6.4)}, scale=.6]
+		\duck
+	\end{scope}
+    \end{scope}}
+}
+\begin{document}
+\AddToShipoutPictureBG{%
+ \AtPageLowerLeft{%
+ \begin{tikzpicture}[overlay,remember picture]
+ \shade[ball color=LawnGreen] (0,0) rectangle (\paperwidth,\paperheight);
+ \path ([xshift=1cm,yshift=-2cm]current page.north west) pic {tree};
+ \path ([xshift=1cm,yshift=0.5cm]current page.south west) pic {tree};
+ \path ([xshift=-1cm,yshift=-2cm]current page.north east) pic {tree};
+ \path ([xshift=-1cm,yshift=0.5cm]current page.south east) pic {tree};
+ \end{tikzpicture}}}
+\begin{tikzpicture}
+
+\path (0,0) rectangle (\textwidth,\textheight);
+\coordinate (mycenter) at (0.5\textwidth,0.4\textheight);
+
+  \foreach \y in {0,30,...,330}%
+ {
+  \path[overlay] (mycenter) --+(\y:4.0) pic { tree };
+ }
+\end{tikzpicture}
+
+\end{document}
