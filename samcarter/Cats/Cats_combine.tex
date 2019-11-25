@@ -1,0 +1,17 @@
+\documentclass{beamer}
+\setbeamercolor{background canvas}{bg=black}
+\setbeamertemplate{navigation symbols}{}
+\usepackage{tikzlings}
+\begin{document}
+	
+\foreach \x in {1,...,100}{	
+\foreach \y in {1,...,4}{
+\begin{frame}
+\begin{tikzpicture}[remember picture, overlay]
+\node at (current page.center) {\includegraphics[width=\paperwidth,page=\x]{Cats}};
+\end{tikzpicture}	
+\end{frame}	
+}
+}
+
+\end{document}
