@@ -1,0 +1,121 @@
+% !TeX TS-program = pdflatex
+
+\documentclass{beamer}
+\usepackage{tikzducks,tikzlings}
+\definecolor{fskin}{RGB}{161,140,126}%
+\definecolor{fbill}{RGB}{238,212,191}%
+\definecolor{fhair}{RGB}{89,72,72}%
+\definecolor{crown}{RGB}{255,220,123}
+\definecolor{skin}{RGB}{255,215,146}
+
+\setbeamercolor{background canvas}{bg=blue!30!black}
+\setbeamertemplate{navigations symbols}{}
+\usetikzlibrary{calc}
+
+\pgfmathsetseed{\number\pdfrandomseed}
+
+\def\xmin{-30}
+\def\xmax{1.1\paperwidth}
+\def\ymin{0}
+\def\ymax{1.1\paperheight}
+
+
+\begin{document}
+\begin{frame}
+\begin{tikzpicture}[remember picture, overlay]
+
+\foreach \i in {0,...,200}{
+
+	\pgfmathsetmacro{\x}{rnd}%
+	\pgfmathsetmacro{\y}{rnd}%
+	\pgfmathsetmacro{\s}{rnd}%
+
+	\fill[white!90!yellow] ({\x*(\xmax-\xmin)+\xmin},{\y*(\ymax-\ymin)-.5*\ymax}) circle (0.017);
+
+}	
+
+\fill[white!90!gray] ($(current page.south)+(0,-17.5)$) circle (20cm);
+\fill[white!90!gray] ($(current page.south)+(6,-2.5)$) circle (6cm);
+
+
+% building
+\begin{scope}[scale=0.03,yshift=-3600,xshift=-1500]
+    \draw[brown!50!black,line width=6.000pt] (129.0546,0.7705) .. controls (122.1203,65.4904) and (113.6451,66.6461) .. (113.6451,66.6461) -- (113.6451,66.6461) (91.3013,59.3266) .. controls (92.3303,59.5764) and (93.3577,59.8332) .. (94.3832,60.0971) .. controls (139.4171,71.6830) and (180.7789,97.1457) .. (211.4045,132.1365) .. controls (242.2399,97.1582) and (283.7423,71.7125) .. (328.9019,60.0971) .. controls (329.9275,59.8333) and (330.9548,59.5765) .. (331.9838,59.3266) (294.2305,0.7705) .. controls (301.1648,65.4904) and (309.6400,66.6461) .. (309.6400,66.6461) -- (309.6400,66.6461);
+\end{scope}
+
+
+% sheep #1
+\begin{scope}[xscale=-0.6,yscale=0.6,yshift=-6.5cm,xshift=-2.5cm]
+    \duck[body=white!80!brown, bill=white!60!brown, sheep]
+\end{scope}
+
+\begin{scope}[scale=0.6,yshift=-8cm,xshift=1.5cm]
+\pig
+\end{scope}
+
+
+% donkey
+\begin{scope}[xscale=-0.8,yscale=0.8,xshift=-30,yshift=-6.5cm]
+    \duck[body=fskin,bill=fbill,shorthair=fhair,bunny,inear=fbill]
+    \node[fskin,rotate=150,scale=3] at (1.75,1.59) {\reflectbox{\small\textsf{s}}};
+    \fill[fhair,rotate=45] (2.65,0.05) ellipse (0.15 and 0.07); 
+\end{scope}  
+
+
+\begin{scope}[yshift=-5cm,xshift=-1.25cm]
+
+% Mary
+\begin{scope}[xscale=-1,yshift=15,xshift=-150]
+    \duck[tshirt=blue!30!gray,longhair,body=skin]
+\end{scope} 
+
+% crib
+\begin{scope}[scale=0.25,xshift=650,yshift=145]
+    \duck
+\end{scope}
+\begin{scope}[scale=0.038,yshift=1200,xshift=4100]
+    \path[draw=brown,line join=miter,line cap=butt,miter limit=10.00,line width=1.275pt] (5.6693,-15.5908) -- (22.6775,-28.3468)(22.6775,-15.5908) -- (5.6693,-28.3468);
+    \path[fill=brown,nonzero rule] (0.0000,-5.6693) -- (28.3468,-5.6693) -- (22.6775,-17.0082) -- (5.6693,-17.0082);
+\end{scope}
+
+% Joseph
+\begin{scope}[xscale=1,yshift=10,xshift=190]
+    \duck[tshirt=red!30!brown,shorthair=brown!50!black,body=skin]
+\end{scope} 
+
+\end{scope}
+
+\begin{scope}[xshift=-3.35cm,scale=0.8,yshift=-4.3cm]
+
+
+% Magi #2   
+\begin{scope}[yshift=0,xshift=420]
+    \duck[tshirt=red!30!brown,shorthair=brown!45!black,crown=crown!70!yellow,body=skin!30!brown!80!black,bill=orange!50!brown!65!black,jacket=red!30!brown!80!black,beard,buttons=brown!45!black,pizza]
+\end{scope}
+
+% Magi #3   
+\begin{scope}[yshift=-10,xshift=480]
+    \duck[tshirt=teal!30!brown,shorthair=brown!65!red,crown=crown!80!yellow,body=skin!90!white,jacket=teal!30!brown!80!black,buttons=white!50!brown,wine]
+\end{scope} 
+
+% Magi #1
+\begin{scope}[yshift=-60,xshift=440]
+    \duck[tshirt=green!10!brown,shorthair=brown,crown=crown,body=skin,jacket=green!30!brown,buttons=green!10!brown!80!black,cake]
+\end{scope}
+
+\end{scope}
+
+% comet
+\begin{scope}[xscale=0.03,yscale=-0.03,yshift=-100cm,xshift=-3500]
+    \path[fill=crown!80!yellow] (238.7832,10.0000) -- (234.8516,26.2656) -- (218.1582,27.4336) -- (230.2793,38.9707) -- (222.9434,54.0117) -- (238.9961,49.2832) -- (248.3535,63.1562) -- (252.2852,46.8906) -- (268.9785,45.7227) -- (261.8457,38.9336) .. controls (270.2556,38.8419) and (278.6830,40.2309) .. (286.5977,43.0781) .. controls (298.4672,47.3482) and (309.1501,54.8655) .. (317.1777,64.5957) .. controls (319.3767,67.2610) and (321.3804,70.0887) .. (323.1660,73.0469) -- (316.1934,49.2793) -- (325.9688,44.4219) .. controls (323.7865,42.0532) and (321.4179,39.8563) .. (318.8926,37.8574) .. controls (309.1476,30.1439) and (297.0216,25.4810) .. (284.6191,24.6797) .. controls (276.2092,24.1363) and (267.6990,25.3763) .. (259.7676,28.2207) -- (264.1934,19.1445) -- (248.1406,23.8730) -- (238.7832,10.0000) -- cycle;
+\end{scope}
+
+%% snowflakes
+%%\only<200->{
+%	\node at ({5.4+0.5*sin(\thepage)},{28.8-0.0972*(\thepage)}) {\includegraphics[width=\paperwidth]{snowflakes}};
+%%}
+
+%\pause[500]
+\end{tikzpicture}
+\end{frame}
+\end{document}
