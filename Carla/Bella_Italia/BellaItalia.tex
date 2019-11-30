@@ -1,0 +1,31 @@
+% arara: pdflatex
+% arara: showfile
+\documentclass{beamer}
+
+\usepackage{tikz}
+\usepackage{bbding}
+\usepackage{tikzlings}
+\usetikzlibrary{overlay-beamer-styles}
+\setbeamertemplate{navigation symbols}{}
+
+\setbeamercolor{background canvas}{bg=gray}
+
+\begin{document}
+
+\begin{frame}[plain]
+\begin{tikzpicture}[remember picture,overlay]
+	
+% Background image
+\node[at=(current page.center), anchor=center]{%
+	\includegraphics[height=\paperheight]{soccerfield.pdf}
+};	
+
+
+
+\end{tikzpicture}
+
+\end{frame}
+
+
+
+\end{document}
