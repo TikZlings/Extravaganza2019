@@ -1,0 +1,148 @@
+\documentclass{beamer}
+
+\setbeamertemplate{navigation symbols}{}
+
+\usepackage{graphicx}
+\usepackage{tikzducks}
+
+\begin{document}
+
+% Particle man
+
+\begin{frame}{}
+\centering
+\begin{tikzpicture}[scale=2, transform shape]
+  \duck[sunglasses]
+  \node[yshift=20] at (head) {\includegraphics[scale=.05]{particle}};
+\end{tikzpicture}
+\end{frame}
+
+% Particle man
+
+\begin{frame}{}
+\centering
+\begin{tikzpicture}[scale=2, transform shape, xscale=-1]
+  \duck[sunglasses]
+  \node[yshift=20] at (head) {\scalebox{-1}[1]{\includegraphics[scale=.05]{particle}}};
+\end{tikzpicture}
+\end{frame}
+
+% Doing the things a particle can
+
+\begin{frame}{}
+\centering
+\begin{tikzpicture}[scale=2, transform shape]
+  \duck[sunglasses, icecream]
+  \node[yshift=20] at (head) {\includegraphics[scale=.05]{particle}};
+\end{tikzpicture}
+\end{frame}
+
+% What's he like?
+
+\begin{frame}{}
+\centering\vspace{-1cm}
+\begin{tikzpicture}[scale=7, transform shape]
+  \duck[sunglasses]
+\end{tikzpicture}
+\end{frame}
+
+% It's not important
+
+\begin{frame}{}
+\centering
+\begin{tikzpicture}[scale=1.5, transform shape, xscale=-1]
+  \duck[sunglasses]
+\end{tikzpicture}
+\begin{tikzpicture}[scale=1.5, transform shape, xscale=-1]
+  \duck[sunglasses]
+\end{tikzpicture}
+\begin{tikzpicture}[scale=1.5, transform shape, xscale=-1]
+  \duck[sunglasses]
+\end{tikzpicture}
+
+\vspace{2em}
+
+\begin{tikzpicture}[scale=1.5, transform shape, xscale=-1]
+  \duck[sunglasses]
+\end{tikzpicture}
+\begin{tikzpicture}[scale=1.5, transform shape, xscale=-1]
+  \duck[sunglasses]
+\end{tikzpicture}
+\begin{tikzpicture}[scale=1.5, transform shape, xscale=-1]
+  \duck[sunglasses]
+\end{tikzpicture}
+\end{frame}
+
+% Particle man
+
+\begin{frame}{}
+\centering
+\begin{tikzpicture}[scale=2, transform shape]
+  \duck[sunglasses]
+  \node[yshift=20] at (head) {\includegraphics[scale=.05]{particle}};
+\end{tikzpicture}
+\end{frame}
+
+% Is he a dot?
+
+\begin{frame}{}
+\centering
+\begin{tikzpicture}[scale=2, transform shape]
+  \duck[sunglasses]
+  \node[draw, circle, fill=black, xshift=-30] at (head) {};
+  \node[yshift=20] at (head) {\includegraphics[scale=.05]{particle}};
+\end{tikzpicture}
+\end{frame}
+
+% Or is he a speck?
+
+\begin{frame}{}
+\centering
+\begin{tikzpicture}[scale=2, transform shape]
+  \duck[sunglasses]
+  \node[draw, circle, fill=black, xshift=-60, minimum width=60] at (head) {};
+  \node[yshift=20] at (head) {\includegraphics[scale=.05]{particle}};
+  \node[yshift=10, xshift=20] at (head) {\rotatebox{-20}{\Huge\bfseries?}};
+\end{tikzpicture}
+\end{frame}
+
+% When he's underwater does he get wet?
+
+\begin{frame}{}
+\centering
+\begin{tikzpicture}[scale=2, transform shape]
+  \duck[sunglasses, water=cyan!50!blue]
+  \node[yshift=20] at (head) {\includegraphics[scale=.05]{particle}};
+\end{tikzpicture}
+\end{frame}
+
+% Or does the water get him instead?
+
+\begin{frame}{}
+\vspace{1.1cm}\centering
+\begin{tikzpicture}[scale=2, transform shape]
+  \duck[sunglasses, water=cyan!50!blue, umbrella=cyan]
+\end{tikzpicture}
+\end{frame}
+
+% Nobody knows
+
+\begin{frame}{}
+\centering\vspace{-1cm}
+\begin{tikzpicture}[scale=7, transform shape]
+  \duck[sunglasses]
+\end{tikzpicture}
+\end{frame}
+
+% Particle man
+
+\begin{frame}{}
+\centering
+\begin{tikzpicture}[scale=2, transform shape]
+  \duck[sunglasses]
+  \node[yshift=20] at (head) {\includegraphics[scale=.05]{particle}};
+\end{tikzpicture}
+\end{frame}
+
+\end{document}
+
