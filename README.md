@@ -34,21 +34,43 @@ Music and 3rd party images are not included in this repository. The links to the
 
 - Source code: ./Ulrike/Finale/
 
+## Island
+
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/island.mp4"><img src="./Storyboard/previews/island.png" height="64"></a>
+
+- Topic: Sunny usland with palm tree, Snowman and penguins singing let is snow (it should then snow ...)
+
+- Music: https://youtu.be/vpyxTFqYHhE - Dean Martin - Let it Snow! Let it Snow! Let it Snow! - 0:08 - 0:20 
+
+- Source code: ./Ulrike/Island/
+
+## Wild West Marmot
+
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/wildwest.mp4"><img src="./Storyboard/previews/wildwest.png" height="64"></a>
+
+- Topic: Western town with marmot, background https://s-media-cache-ak0.pinimg.com/originals/5a/03/a5/5a03a528bae24b828b93524038952adc.jpg
+
+- Music: https://youtu.be/31zZL0V3r94 - Sequenz Mundharmonika - 1:30 - 1:48
+
+- Source code: ./Ulrike/WildWest/
+
+## Cats / Remembering
+
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/Cats.mp4"><img src="./Storyboard/previews/Cats.png" height="64"></a>
+
+- Topic: Night sky, large moon with a mouse, a cat singing memories.
+
+- Music: https://youtu.be/8gd_ohoPzYc - Memory - Cats the Musical - 0:00 - 0:20 
+
+- Source code: ./samcarter/Cats/
+
+- TODO: add mouse to moon, bring halo and moon in sync
+
 
 
 
 # Scenes to do:
 
-
-
-
-
-
-| No. | Scenes                 | link to source code            | Resposible             | Video           | 
-| :---| :----------------------| :----------------------| :----------------------| :---------------|
-|     | Cats                   |                        | samcarter              |                 |
-|     | Hippos                 |./Ulrike/Hippos/hippos.tex| Ulrike              |                 |
-|     | Wildwest               |./Ulrike/WildWest/wildwest.tex                  | Ulrike              |   [video](https://github.com/samcarter/Extravanganza2019/releases/download/video/wildwest.mp4)         |
 
 
 
@@ -86,11 +108,7 @@ https://commons.wikimedia.org/wiki/Category:High_Falls_of_the_Genesee_River#/med
 Maybe a fearless tikzduck could swim there? 
 
 
-## Cats / Remembering
 
-Night sky, large moon with a mouse, a cat singing memories.
-
-Music 0:00 - 0:20 https://youtu.be/8gd_ohoPzYc
 
 ## CTAN praise
 
@@ -122,12 +140,6 @@ Musik:
 2:55 - 3:20
 https://www.youtube.com/watch?v=Q9hLcRU5wE4
 
-## Western town with marmot
-
-background https://s-media-cache-ak0.pinimg.com/originals/5a/03/a5/5a03a528bae24b828b93524038952adc.jpg
-
-Music 1:30 - 1:48
-https://youtu.be/31zZL0V3r94
 
 
 ## Night divine 
@@ -135,11 +147,6 @@ nativity scene with ducks
 
 music 0:06 - 0:23 https://youtu.be/or2mMJ6_YCM
 
-## Frightful weather
-
-Sunny usland with palm tree, Snowman and penguins singing let is snow (it should then snow ...)
-
-Music 0:08 - 0:20 https://youtu.be/vpyxTFqYHhE
 
 ## It's time to say goodbye
 
