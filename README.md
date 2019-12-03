@@ -66,7 +66,15 @@ Music and 3rd party images are not included in this repository. The links to the
 
 - TODO: add mouse to moon, bring halo and moon in sync
 
+## Night divine 
 
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/NightDivine.mp4"><img src="./Storyboard/previews/NightDivine.png" height="64"></a>
+
+- Topic: nativity scene with ducks 
+
+- Music: https://youtu.be/or2mMJ6_YCM - NAT KING COLE - O HOLY NIGHT - 0:06 - 0:23 
+
+- Source code: ./samcarter/NightDivine/
 
 
 # Scenes to do:
@@ -142,10 +150,7 @@ https://www.youtube.com/watch?v=Q9hLcRU5wE4
 
 
 
-## Night divine 
-nativity scene with ducks 
 
-music 0:06 - 0:23 https://youtu.be/or2mMJ6_YCM
 
 
 ## It's time to say goodbye
