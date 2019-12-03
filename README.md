@@ -76,6 +76,8 @@ Music and 3rd party images are not included in this repository. The links to the
 
 - Source code: ./samcarter/NightDivine/
 
+- TODO: let the kings walk into the image
+
 
 # Scenes to do:
 
