@@ -48,20 +48,17 @@
 	\includegraphics[height=1.05\paperheight,trim=2cm 2cm 2cm 2cm]{insel-mit-palme2}
 };	
 
-\only<50->{
-	\node at ({5.4+0.5*sin(\value{page})},{28.8-0.0972*(\value{page}-50)}) {\includegraphics[width=\paperwidth]{snowflakes}};
-}
-
 % Image credit of background
 \node[at=(current page.south east),xshift=-6.6cm,yshift=0.2cm]{%
 	\TINY\color{white}www.shutterstock.com};
 \end{tikzpicture}
 
 \vspace*{5cm}\hspace{1cm}
-\foreach \x in {100,102,...,600}{%
+\foreach \x in {100,100.5,...,350}{%
 \only<+>{%
 \begin{tikzpicture}[overlay,baseline={(0,0)}]
-\path(2.5,\penguini) pic[rotate=\myangle{\x}]{penguin1} -- (3.5,\penguinii)  pic [rotate=\myangle{\x}]{penguin2} -- (5.3,\snowmanh) pic[rotate=\myangle{\x}]{snowman}-- (6.3,\penguiniii) pic[rotate=\myangle{\x}]{penguin3} -- (8.3,\penguiniv) pic[rotate=\myangle{\x}]{penguin4};
+\path
+(2.5,\penguini)  pic[rotate=\myangle{\x}]{penguin1} -- (3.5,\penguinii) pic [rotate=\myangle{\x}]{penguin2} -- (5.3,\snowmanh)  pic[rotate=\myangle{\x}]{snowman} -- (6.3,\penguiniii) pic[rotate=\myangle{\x}]{penguin3} -- (8.3,\penguiniv) pic[rotate=\myangle{\x}]{penguin4};
 \end{tikzpicture}}}
 
 \end{frame}
