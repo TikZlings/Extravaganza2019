@@ -11,8 +11,8 @@ ffmpeg -ss 00:00:00 -i BellaItalia-%d.png -ss 00:01:25 -i UnEstateItaliana.m4a -
 HandBrakeCLI --crop 0:0:0:0  -i BellaItalia_raw.mp4 -o BellaItalia.mp4
 
 # clean up
-#rm BellaItalia-*.png
+rm BellaItalia-*.png
 rm BellaItalia_raw.mp4
 
 # view :)
-#open BellaItalia.mp4
+open BellaItalia.mp4
