@@ -1,9 +1,48 @@
 # The Great TikZlings Christmas Extravaganza 2019
 
-This repository contains the souce code of the Great TikZlings Extravanganza 2019, created by ...
+This repository contains the souce code of the Great TikZlings Extravanganza 2019, created by [Ulrike](https://github.com/u-fischer) & [Gert Fischer](https://github.com/g-fischer), [CarLaTeX](https://github.com/CarLaTeX), [Paulo Cereda](https://github.com/cereda) and [samcarter](https://github.com/samcarter).
+
 The full video is available from ...
 
+<!--- 
 Music and 3rd party images are not included in this repository. The links to the songs can be found in the file ./Storyboard2019/music.txt, links to 3rd party images are for the most part given in the code of the individual scenes.
+--->
+
+# First ideas:
+
+[link to pdf](./Storyboard/drafts/Extravaganza2019_storyboard.pdf)
+
+# Finished or work in progress scenes:
+
+## Bella Italia
+
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/BellaItalia.mp4"><img src="./Storyboard/previews/BellaItalia.png" height="64"></a>
+
+- Topic: Football in the middle; Gianna Nannini on top; football ducks around singing 
+
+- Music:  https://youtu.be/9oU2XCi7fQA - Un'estate italiana - Gianna Nannini & Edoardo Bennato - 1:25 - 1:55
+
+- Source code: ./Carla/Bella_Italia/
+
+## Finale
+
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/finale.mp4"><img src="./Storyboard/previews/finale.png" height="64"></a>
+
+- Topic: traditional round of tikzlings
+
+- Music: https://youtu.be/h_5rpntGmwo - We wish you a merry Christmas - Wiesbadener Knabenchor - 0:08 - 0:27
+
+- Source code: ./Ulrike/Finale/
+
+
+
+
+# Scenes to do:
+
+
+
+
+
 
 | No. | Scenes                 | link to source code            | Resposible             | Video           | 
 | :---| :----------------------| :----------------------| :----------------------| :---------------|
@@ -14,9 +53,7 @@ Music and 3rd party images are not included in this repository. The links to the
 
 
 
-# First ideas
 
-[link to pdf](./Storyboard/drafts/Extravaganza2019_storyboard.pdf)
 
 
 ## Hippos
@@ -76,12 +113,7 @@ or
 
 https://www.youtube.com/watch?v=A2Rj2UxJRtU
 
-## Football 
 
-Football in the middle; Gianna Nannini on top; football ducks around  
-singing: 
-
-> 1:25 - 1:55 https://youtu.be/9oU2XCi7fQA 
 
 ## Bat out of hell
 
@@ -117,9 +149,4 @@ Music 0:10 - 0:37
 https://youtu.be/tL4spj1_trI
 
 
-## Finale
 
-traditional round of tikzlings, 
-
-Music 0:08 - 0:27
-https://youtu.be/h_5rpntGmwo
