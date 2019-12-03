@@ -1,0 +1,19 @@
+\documentclass{beamer}
+
+\setbeamercolor{background canvas}{bg=blue!30!black}
+\setbeamertemplate{navigations symbols}{}
+\usepackage{pgffor,tikz}
+\usetikzlibrary{calc}
+\def\xmin{-30}
+\def\xmax{1.1\paperwidth}
+\def\ymin{0}
+\def\ymax{1.1\paperheight}
+
+\begin{document}
+\begin{frame}
+\begin{tikzpicture}[remember picture, overlay]
+\node at (current page.center) {\includegraphics[width=\paperwidth]{BellaItalia}};
+\pause[500]
+\end{tikzpicture}
+\end{frame}
+\end{document}
