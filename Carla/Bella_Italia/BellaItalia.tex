@@ -22,9 +22,9 @@
 	\includegraphics[%height=\paperheight
 		width=\paperwidth]{soccerfield.pdf}
 };	
-\foreach \x in {1,...,60}{
+\foreach \x in {1,...,500}{
 	\node[at=(current page.center), anchor=center] {
-		\ifnum \intmodnn{\thepage}{6} > 2
+		\ifnum \intmodnn{\thepage}{12} > 4
 		\includegraphics<+>[width=\paperwidth]{Gianna_close}%
 		\else
 		\includegraphics<+>[width=\paperwidth]{Gianna_open}%
