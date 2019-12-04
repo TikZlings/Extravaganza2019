@@ -16,7 +16,7 @@ Music and 3rd party images are not included in this repository. The links to the
 
 ### Bella Italia
 
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/BellaItalia.mp4"><img align="right" src="./Storyboard/previews/BellaItalia.png" height="64"></a>
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/BellaItalia.mp4"><img align="right" src="./Storyboard/previews/BellaItalia.png" height="100"></a>
 
 - Topic: Football in the middle; Gianna Nannini on top; football ducks around singing 
 
@@ -26,7 +26,7 @@ Music and 3rd party images are not included in this repository. The links to the
 
 ### Finale
 
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/finale.mp4"><img align="right" src="./Storyboard/previews/finale.png" height="64"></a>
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/finale.mp4"><img align="right" src="./Storyboard/previews/finale.png" height="100"></a>
 
 - Topic: traditional round of tikzlings
 
@@ -36,7 +36,7 @@ Music and 3rd party images are not included in this repository. The links to the
 
 ### Island
 
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/island.mp4"><img align="right" src="./Storyboard/previews/island.png" height="64"></a>
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/island.mp4"><img align="right" src="./Storyboard/previews/island.png" height="100"></a>
 
 - Topic: Sunny usland with palm tree, Snowman and penguins singing let is snow (it should then snow ...)
 
@@ -46,7 +46,7 @@ Music and 3rd party images are not included in this repository. The links to the
 
 ### Wild West Marmot
 
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/wildwest.mp4"><img align="right" src="./Storyboard/previews/wildwest.png" height="64"></a>
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/wildwest.mp4"><img align="right" src="./Storyboard/previews/wildwest.png" height="100"></a>
 
 - Topic: Western town with marmot, background https://s-media-cache-ak0.pinimg.com/originals/5a/03/a5/5a03a528bae24b828b93524038952adc.jpg
 
@@ -56,7 +56,7 @@ Music and 3rd party images are not included in this repository. The links to the
 
 ### Cats / Remembering
 
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/Cats.mp4"><img align="right" src="./Storyboard/previews/Cats.png" height="64"></a>
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/Cats.mp4"><img align="right" src="./Storyboard/previews/Cats.png" height="100"></a>
 
 - Topic: Night sky, large moon with a mouse, a cat singing memories.
 
@@ -68,7 +68,7 @@ Music and 3rd party images are not included in this repository. The links to the
 
 ### Night divine 
 
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/NightDivine.mp4"><img align="right" src="./Storyboard/previews/NightDivine.png" height="64"></a>
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/NightDivine.mp4"><img align="right" src="./Storyboard/previews/NightDivine.png" height="100"></a>
 
 - Topic: nativity scene with ducks 
 
