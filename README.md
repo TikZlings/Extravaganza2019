@@ -16,7 +16,7 @@ Music and 3rd party images are not included in this repository. The links to the
 
 ## Bella Italia
 
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/BellaItalia.mp4"><img src="./Storyboard/previews/BellaItalia.png" height="64"></a>
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/BellaItalia.mp4"><img align="left"  src="./Storyboard/previews/BellaItalia.png" height="64"></a>
 
 - Topic: Football in the middle; Gianna Nannini on top; football ducks around singing 
 
