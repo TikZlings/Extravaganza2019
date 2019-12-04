@@ -64,8 +64,6 @@ Music and 3rd party images are not included in this repository. The links to the
 
 - Source code: ./samcarter/Cats/
 
-- TODO: add mouse to moon, bring halo and moon in sync
-
 ### Night divine 
 
 <a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/NightDivine.mp4"><img align="right" src="./Storyboard/previews/NightDivine.png" height="100"></a>
