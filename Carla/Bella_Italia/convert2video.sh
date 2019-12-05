@@ -15,4 +15,4 @@ rm BellaItalia-*.png
 rm BellaItalia_raw.mp4
 
 # view :)
-#open BellaItalia.mp4
+open BellaItalia.mp4

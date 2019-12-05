@@ -24,7 +24,7 @@
 };	
 \foreach \x in {1,...,500}{
 	\node[at=(current page.center), anchor=center] {
-		\ifnum \intmodnn{\thepage}{12} > 4
+		\ifnum \intmodnn{\thepage}{15} > 6
 		\includegraphics<+>[width=\paperwidth]{Gianna_close}%
 		\else
 		\includegraphics<+>[width=\paperwidth]{Gianna_open}%
