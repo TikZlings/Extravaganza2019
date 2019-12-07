@@ -3,9 +3,17 @@
 \setbeamertemplate{navigation symbols}{}
 \usepackage{tikzlings}
 \begin{document}
-	
+
+\foreach \x in {1,...,50}{	
+\begin{frame}
+\begin{tikzpicture}[remember picture, overlay]
+\node at (current page.center) {\includegraphics[width=\paperwidth,page=1]{Cats}};
+\end{tikzpicture}	
+\end{frame}	
+}
+
 \foreach \x in {1,...,100}{	
-\foreach \y in {1,...,4}{
+\foreach \y in {1,...,5}{
 \begin{frame}
 \begin{tikzpicture}[remember picture, overlay]
 \node at (current page.center) {\includegraphics[width=\paperwidth,page=\x]{Cats}};

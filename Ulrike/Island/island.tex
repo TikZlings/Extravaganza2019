@@ -50,7 +50,7 @@
 
 % Image credit of background
 \node[at=(current page.south east),xshift=-6.6cm,yshift=0.2cm]{%
-	\TINY\color{white}www.shutterstock.com};
+	\footnotesize\color{white}Background: www.shutterstock.com};
 \end{tikzpicture}
 
 \vspace*{5cm}\hspace{1cm}
@@ -60,6 +60,10 @@
 \path
 (2.5,\penguini)  pic[rotate=\myangle{\x}]{penguin1} -- (3.5,\penguinii) pic [rotate=\myangle{\x}]{penguin2} -- (5.3,\snowmanh)  pic[rotate=\myangle{\x}]{snowman} -- (6.3,\penguiniii) pic[rotate=\myangle{\x}]{penguin3} -- (8.3,\penguiniv) pic[rotate=\myangle{\x}]{penguin4};
 \end{tikzpicture}}}
+
+\begin{tikzpicture}[remember picture, overlay]
+\node at ({5.4+0.1*sin(\thepage)},{31.16-0.0472*(\thepage)}) {\includegraphics[width=\paperwidth]{snowflakes}};
+\end{tikzpicture}
 
 \end{frame}
 \end{document} 

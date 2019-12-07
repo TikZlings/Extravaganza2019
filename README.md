@@ -1,22 +1,89 @@
 # The Great TikZlings Christmas Extravaganza 2019
 
-This repository contains the souce code of the Great TikZlings Extravanganza 2019, created by ...
+This repository contains the souce code of the Great TikZlings Extravanganza 2019, created by [Ulrike](https://github.com/u-fischer) & [Gert Fischer](https://github.com/g-fischer), [CarLaTeX](https://github.com/CarLaTeX), [Paulo Cereda](https://github.com/cereda) and [samcarter](https://github.com/samcarter).
+
 The full video is available from ...
 
+<!--- 
 Music and 3rd party images are not included in this repository. The links to the songs can be found in the file ./Storyboard2019/music.txt, links to 3rd party images are for the most part given in the code of the individual scenes.
+--->
 
-| No. | Scenes                 | link to source code            | Resposible             | Video           | 
-| :---| :----------------------| :----------------------| :----------------------| :---------------|
-|     | Cats                   |                        | samcarter              |                 |
-|     | Hippos                 |./Ulrike/Hippos/hippos.tex| Ulrike              |                 |
-|     | Wildwest               |./Ulrike/WildWest/wildwest.tex                  | Ulrike              |   [video](https://github.com/samcarter/Extravanganza2019/releases/download/video/wildwest.mp4)         |
-
-
-
-
-# First ideas
+# First ideas:
 
 [link to pdf](./Storyboard/drafts/Extravaganza2019_storyboard.pdf)
+
+# Finished or work in progress scenes:
+
+### Bella Italia
+
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/BellaItalia.mp4"><img align="right" src="./Storyboard/previews/BellaItalia.png" height="100"></a>
+
+- Topic: Football in the middle; Gianna Nannini on top; football ducks around singing 
+
+- Music:  https://youtu.be/9oU2XCi7fQA - Un'estate italiana - Gianna Nannini & Edoardo Bennato - 1:25 - 1:55
+
+- Source code: ./Carla/Bella_Italia/
+
+### Finale
+
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/finale.mp4"><img align="right" src="./Storyboard/previews/finale.png" height="100"></a>
+
+- Topic: traditional round of tikzlings
+
+- Music: https://youtu.be/h_5rpntGmwo - We wish you a merry Christmas - Wiesbadener Knabenchor - 0:08 - 0:27
+
+- Source code: ./Ulrike/Finale/
+
+### Island
+
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/island.mp4"><img align="right" src="./Storyboard/previews/island.png" height="100"></a>
+
+- Topic: Sunny usland with palm tree, Snowman and penguins singing let is snow (it should then snow ...)
+
+- Music: https://youtu.be/vpyxTFqYHhE - Dean Martin - Let it Snow! Let it Snow! Let it Snow! - 0:08 - 0:20 
+
+- Source code: ./Ulrike/Island/
+
+### Wild West Marmot
+
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/wildwest.mp4"><img align="right" src="./Storyboard/previews/wildwest.png" height="100"></a>
+
+- Topic: Western town with marmot, background https://s-media-cache-ak0.pinimg.com/originals/5a/03/a5/5a03a528bae24b828b93524038952adc.jpg
+
+- Music: https://youtu.be/31zZL0V3r94 - Sequenz Mundharmonika - 1:30 - 1:48
+
+- Source code: ./Ulrike/WildWest/
+
+### Cats / Remembering
+
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/Cats.mp4"><img align="right" src="./Storyboard/previews/Cats.png" height="100"></a>
+
+- Topic: Night sky, large moon with a mouse, a cat singing memories.
+
+- Music: https://youtu.be/8gd_ohoPzYc - Memory - Cats the Musical - 0:00 - 0:20 
+
+- Source code: ./samcarter/Cats/
+
+### Night divine 
+
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/NightDivine.mp4"><img align="right" src="./Storyboard/previews/NightDivine.png" height="100"></a>
+
+- Topic: nativity scene with ducks 
+
+- Music: https://youtu.be/or2mMJ6_YCM - NAT KING COLE - O HOLY NIGHT - 0:06 - 0:23 
+
+- Source code: ./samcarter/NightDivine/
+
+- TODO: let the kings walk into the image
+
+
+# Scenes to do:
+
+
+
+
+
+
 
 
 ## Hippos
@@ -49,11 +116,7 @@ https://commons.wikimedia.org/wiki/Category:High_Falls_of_the_Genesee_River#/med
 Maybe a fearless tikzduck could swim there? 
 
 
-## Cats / Remembering
 
-Night sky, large moon with a mouse, a cat singing memories.
-
-Music 0:00 - 0:20 https://youtu.be/8gd_ohoPzYc
 
 ## CTAN praise
 
@@ -76,12 +139,7 @@ or
 
 https://www.youtube.com/watch?v=A2Rj2UxJRtU
 
-## Football 
 
-Football in the middle; Gianna Nannini on top; football ducks around  
-singing: 
-
-> 1:25 - 1:55 https://youtu.be/9oU2XCi7fQA 
 
 ## Bat out of hell
 
@@ -90,24 +148,10 @@ Musik:
 2:55 - 3:20
 https://www.youtube.com/watch?v=Q9hLcRU5wE4
 
-## Western town with marmot
-
-background https://s-media-cache-ak0.pinimg.com/originals/5a/03/a5/5a03a528bae24b828b93524038952adc.jpg
-
-Music 1:30 - 1:48
-https://youtu.be/31zZL0V3r94
 
 
-## Night divine 
-nativity scene with ducks 
 
-music 0:06 - 0:23 https://youtu.be/or2mMJ6_YCM
 
-## Frightful weather
-
-Sunny usland with palm tree, Snowman and penguins singing let is snow (it should then snow ...)
-
-Music 0:08 - 0:20 https://youtu.be/vpyxTFqYHhE
 
 ## It's time to say goodbye
 
@@ -117,9 +161,4 @@ Music 0:10 - 0:37
 https://youtu.be/tL4spj1_trI
 
 
-## Finale
 
-traditional round of tikzlings, 
-
-Music 0:08 - 0:27
-https://youtu.be/h_5rpntGmwo
