@@ -1,0 +1,46 @@
+% !Mode:: "TeX:DE:UTF-8:Main"
+% arara: pdflatex
+% arara: pdflatex
+% xarara: convert: {density: 160, otheroptions: -dispose previous -delay 10 -loop 0, format: gif}
+%magick -density 160 -delay 15 -loop 0 hippos.pdf hippos.gif
+\documentclass{beamer}
+
+\usepackage{tikzlings,tikzducks,xfp}
+\usetikzlibrary{overlay-beamer-styles}
+\setbeamertemplate{navigation symbols}{}
+\tikzset{
+  mouse/.pic = {
+   \begin{scope}[scale=0.5,transform shape]
+     \mouse;
+  \end{scope}},
+  }
+
+\begin{document}
+\begin{frame}<1->[plain,label=choir]%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{tikzpicture}[remember picture,overlay]
+\fill[black](current page.north east) rectangle (current page.south west);	
+% Background image
+\node[at={([yshift=1cm]current page.center)}]{%
+	\includegraphics[height=0.9\paperheight]{silentnightback}
+};	
+
+% Image credit of background
+\node[at=(current page.south east),xshift=-6.6cm,yshift=0.2cm]{%
+	\TINY\color{white}© xxxx
+};
+\end{tikzpicture}
+
+\vspace*{5cm}
+\vfill
+
+\hspace{1cm}
+\begin{tikzpicture}[overlay,baseline={(0,0)}]
+\path (0,0) pic{mouse}--++(1,0) pic{mouse}--++(1,0) pic{mouse}--++(1,0) pic{mouse}--++(1,0) pic{mouse}--++(1,0) pic{mouse}--++(1,0) pic{mouse}--++(1,0) pic{mouse}--++(1,0) pic{mouse}--++(1,0) pic{mouse};
+\path (-0.5,-1) pic{mouse}--++(1,0) pic{mouse}--++(1,0) pic{mouse}--++(1,0) pic{mouse}--++(1,0) pic{mouse}--++(1,0) pic{mouse}--++(1,0) pic{mouse}--++(1,0) pic{mouse}--++(1,0) pic{mouse}--++(1,0) pic{mouse}--++(1,0) pic{mouse};
+
+\end{tikzpicture}
+
+\end{frame}
+
+
+\end{document} 
