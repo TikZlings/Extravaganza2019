@@ -12,10 +12,12 @@
 
 
 \begin{document}
-\begin{frame}
+\begin{frame}<1-101>
 \begin{tikzpicture}[remember picture, overlay]
 
 \node at (current page.center) {\includegraphics[width=\paperwidth]{NightDivine}};
+\node<1-100>[xshift=100-\thepage] at (current page.center) {\includegraphics[width=\paperwidth]{Kings}};
+\node<101-> at (current page.center) {\includegraphics[width=\paperwidth]{Kings}};
 \node at ({5.4+0.1*sin(\thepage)},{28.8-0.0472*(\thepage)}) {\includegraphics[width=\paperwidth]{snowflakes}};
 
 \pause[500]

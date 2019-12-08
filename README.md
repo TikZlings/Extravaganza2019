@@ -74,8 +74,6 @@ Music and 3rd party images are not included in this repository. The links to the
 
 - Source code: ./samcarter/NightDivine/
 
-- TODO: let the kings walk into the image
-
 ### Particle Man
 
 <a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/particleman.mp4"><img align="right" src="./Storyboard/previews/particleman.png" height="100"></a>

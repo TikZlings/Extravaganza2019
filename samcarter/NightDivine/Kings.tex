@@ -1,0 +1,49 @@
+% !TeX TS-program = pdflatex
+
+\documentclass{beamer}
+\usepackage{tikzducks,tikzlings}
+\definecolor{fskin}{RGB}{161,140,126}%
+\definecolor{fbill}{RGB}{238,212,191}%
+\definecolor{fhair}{RGB}{89,72,72}%
+\definecolor{crown}{RGB}{255,220,123}
+\definecolor{skin}{RGB}{255,215,146}
+
+\setbeamercolor{background canvas}{bg=}
+\setbeamertemplate{navigation symbols}{}
+\usetikzlibrary{calc}
+
+\pgfmathsetseed{\number\pdfrandomseed}
+
+\def\xmin{-30}
+\def\xmax{1.1\paperwidth}
+\def\ymin{0}
+\def\ymax{1.1\paperheight}
+
+
+\begin{document}
+\begin{frame}
+\begin{tikzpicture}[remember picture, overlay]
+
+\begin{scope}[xshift=-3.35cm,scale=0.8,yshift=-4.3cm]
+
+
+% Magi #2   
+\begin{scope}[yshift=0,xshift=420]
+    \duck[tshirt=red!30!brown,shorthair=brown!45!black,crown=crown!70!yellow,body=skin!30!brown!80!black,bill=orange!50!brown!65!black,jacket=red!30!brown!80!black,beard,buttons=brown!45!black,pizza]
+\end{scope}
+
+% Magi #3   
+\begin{scope}[yshift=-10,xshift=480]
+    \duck[tshirt=teal!30!brown,shorthair=brown!65!red,crown=crown!80!yellow,body=skin!90!white,jacket=teal!30!brown!80!black,buttons=white!50!brown,wine]
+\end{scope} 
+
+% Magi #1
+\begin{scope}[yshift=-60,xshift=440]
+    \duck[tshirt=green!10!brown,shorthair=brown,crown=crown,body=skin,jacket=green!30!brown,buttons=green!10!brown!80!black,cake]
+\end{scope}
+
+\end{scope}
+
+\end{tikzpicture}
+\end{frame}
+\end{document}
