@@ -84,6 +84,15 @@ Music and 3rd party images are not included in this repository. The links to the
 
 - Source code: ./Paulo/particleman/
 
+### Bat out of hell
+
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/bat.mp4"><img align="right" src="./Storyboard/previews/bat.png" height="100"></a>
+
+- Topic: Rockband/swirling bat
+
+- Musik: https://www.youtube.com/watch?v=Q9hLcRU5wE4 - Meat Loaf - Bat Out of Hell - 2:55 - 3:20 
+
+- Source code: ./samcarter/bat/
 
 # Scenes to do:
 
@@ -149,12 +158,6 @@ https://www.youtube.com/watch?v=A2Rj2UxJRtU
 
 
 
-## Bat out of hell
-
-Rockband/swirling bat
-Musik: 
-2:55 - 3:20
-https://www.youtube.com/watch?v=Q9hLcRU5wE4
 
 
 
