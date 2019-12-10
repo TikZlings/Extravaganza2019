@@ -130,7 +130,7 @@ Music and 3rd party images are not included in this repository. The links to the
 
 ### Silent night (organ music)
 
-- Topic: Tikzling choir in front; background: ![](./Storyboard/drafts/silentnightback.jpeg)
+- Topic: Tikzling choir in front; background: ![](./Ulrike/choir/silentnightback.jpeg)
 
 - Music: https://youtu.be/tUSVBQ7iNio - Fischer Chöre - Stille Nacht - 0:09 - 0.33
 
