@@ -136,7 +136,7 @@ or
 
 - Topic: A celebration of the CTAN team would be awesome, perhaps an office and a duck or another tikzling with those phone headsets and a computer to symbolize support... Then a huge gift with a card "with love, the LaTeX3 ------- I like Paulo's idea to make an office with computer etc. Maybe one could even add a tiny conveyor belt that runs into the computer with lots of ordinary brown packages and then a big and colourful L3 package between them. This could even use the cool duck gift paper from Ulrike ------ Title "CTAN factory".  Packages that run into the computer and come out again as colorful packages would be nice.  
 
-- Music: https://youtu.be/-Ih0JJLoMIg - Factory Sounds OR https://www.youtube.com/watch?v=A2Rj2UxJRtU - Leroy Anderson - The Typewriter (I can't extract the music from this video, with youtube-dl I get the error `ERROR: This video is unavailable.`, no idea how to solve) 
+- Music: https://youtu.be/-Ih0JJLoMIg - Factory Sounds OR https://www.youtube.com/watch?v=akwfqjtBn7Y - Leroy Anderson - The Typewriter
 
 ### It's time to say goodbye
 
