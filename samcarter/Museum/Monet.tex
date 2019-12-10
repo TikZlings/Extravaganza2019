@@ -1,0 +1,34 @@
+\documentclass{beamer}
+
+\usepackage{tikz}
+\usepackage{tikzlings}
+\usepackage{tikzducks}
+\usepackage{xurl}
+\usepackage{fontawesome5}
+\setbeamertemplate{navigation symbols}{}
+\usetikzlibrary{shapes}
+
+\begin{document}
+
+% Monet
+\begin{frame}[fragile]
+	\begin{tikzpicture}[remember picture,overlay]
+	 	\node[at=(current page.center)]{
+	  		\includegraphics[height=\paperheight]{Monet1}
+		};
+		\duck[scale=0.7,yshift=-6.6cm,xscale=-1,xshift=-1cm]
+		\duck[scale=0.85,yshift=-6cm,xscale=-1,xshift=-5cm]
+		\duck[scale=0.5,yshift=-7cm,xscale=-1,xshift=-5cm]
+		\duck[scale=0.35,yshift=-9cm,xscale=-1,xshift=-15cm]
+		\duck[scale=0.30,yshift=-8cm,xscale=-1,xshift=-17cm]
+		\marmot[scale=1.2,xshift=5.5cm,yshift=-0.8cm]
+	 	\node[at=(current page.center)]{
+	  		\includegraphics[height=\paperheight]{Monet2}
+		};		
+	\draw[brown!80!black,line width=15pt] (current page.south east) rectangle (current page.north west);		
+	\draw[brown!60!black,line width=10pt] (current page.south east) rectangle (current page.north west);	
+	\end{tikzpicture}
+\end{frame}
+
+
+\end{document}
