@@ -1,0 +1,20 @@
+\documentclass{beamer}
+
+\setbeamertemplate{navigations symbols}{}
+\usepackage{pgffor,tikz}
+
+\begin{document}
+
+\foreach \n in {1,...,28}{
+	\foreach \x in {1,...,6}{	
+		\foreach \y in {1,...,3}{
+			\begin{frame}
+			\begin{tikzpicture}[remember picture, overlay]
+			\node at (current page.center) {\includegraphics[width=\paperwidth,page=\x]{hippos}};
+			\end{tikzpicture}
+			\end{frame}
+		}
+	}
+}
+
+\end{document}

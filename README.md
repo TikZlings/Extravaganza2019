@@ -12,7 +12,7 @@ Music and 3rd party images are not included in this repository. The links to the
 
 [link to pdf](./Storyboard/drafts/Extravaganza2019_storyboard.pdf)
 
-# Finished or work in progress scenes:
+# Finished scenes:
 
 ### Bella Italia
 
@@ -94,82 +94,56 @@ Music and 3rd party images are not included in this repository. The links to the
 
 - Source code: ./samcarter/bat/
 
+### Hippos
+
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/hippos.mp4"><img align="right" src="./Storyboard/previews/hippos.png" height="100"></a>
+
+- Topic: Four Hippos (2 male, 2 female)
+
+- Music: https://www.youtube.com/watch?v=3BPcImSZG8E - BBC Proms 2011 Comedy Proms Hippopotamus Song (Flanders & Swann) - 1:00 - 1:20 
+
+- Source code: ./Ulrike/Hippos/
+
+
 # Scenes to do:
 
 
+### Silent night (organ music)
 
+- Topic: Tikzling choir in front; background: ![](./Storyboard/drafts/silentnightback.jpeg)
 
+- Music: https://youtu.be/tUSVBQ7iNio - Fischer Chöre - Stille Nacht - 0:09 - 0.33
 
+- Source code: ./Ulrike/choir/
 
+### And now for something different
 
+- Topic: 
 
-## Hippos
+- Music: https://youtu.be/Zk-kQSz-Qv0 - And Now For Something Completely Different clip
 
-Four Hippos (2 male, 2 female)
-Music 1:00 - 1:20 
-https://www.youtube.com/watch?v=3BPcImSZG8E
+### TUG / Rochester
 
-## Silent night (organ music)
+- Topic: Yankee Doodle; marching ducks with the Star Spangled Banner (maybe early version), background photo of Rochester, Flag https://node01.flagstat.net/media/catalog/product/detail/2082.png
 
-Tikzling choir in front; 
-background: ![](./Storyboard/drafts/silentnightback.jpeg)
-
-Music 0:09 - 0.33 https://youtu.be/tUSVBQ7iNio
-
-## And now for something different
-
-https://youtu.be/Zk-kQSz-Qv0
-
-## TUG / Rochester
-
-Music:  Yankee Doodle; marching ducks with the Star Spangled Banner (maybe early version), background photo of Rochester
-https://youtu.be/6HOc9WVZbts 0:36 - 0:50
-Flag https://node01.flagstat.net/media/catalog/product/detail/2082.png
-
-or
-
-It seems there are some very impressive water falls in Rochester, e.g. 
-https://commons.wikimedia.org/wiki/Category:High_Falls_of_the_Genesee_River#/media/File:Rochester_HighFalls_Night.JPG
-Maybe a fearless tikzduck could swim there? 
-
-
-
-
-## CTAN praise
-
-A celebration of the CTAN team would be awesome, perhaps an office and a 
-duck or another tikzling with those phone headsets and a computer to 
-symbolize support... Then a huge gift with a card "with love, the LaTeX3 
-
-I like Paulo's idea to make an office with computer etc. Maybe one could even 
-add a tiny conveyor belt that runs into the computer with lots of ordinary 
-brown packages and then a big and colourful L3 package between them. This 
-could even use the cool duck gift paper from Ulrike  
-
-Title "CTAN factory".  Packages that run into the computer and come out again 
-as colorful packages would be nice.  
-
-Factory noises
-https://youtu.be/-Ih0JJLoMIg
+- Music: https://youtu.be/6HOc9WVZbts - Yankee Doodle - 0:36 - 0:50
 
 or 
 
-https://www.youtube.com/watch?v=A2Rj2UxJRtU
+- Topic: It seems there are some very impressive water falls in Rochester, e.g. https://commons.wikimedia.org/wiki/Category:High_Falls_of_the_Genesee_River#/media/File:Rochester_HighFalls_Night.JPG Maybe a fearless tikzduck could swim there? 
 
+### CTAN praise
 
+- Topic: A celebration of the CTAN team would be awesome, perhaps an office and a duck or another tikzling with those phone headsets and a computer to symbolize support... Then a huge gift with a card "with love, the LaTeX3 ------- I like Paulo's idea to make an office with computer etc. Maybe one could even add a tiny conveyor belt that runs into the computer with lots of ordinary brown packages and then a big and colourful L3 package between them. This could even use the cool duck gift paper from Ulrike ------ Title "CTAN factory".  Packages that run into the computer and come out again as colorful packages would be nice.  
 
+- Music: https://youtu.be/-Ih0JJLoMIg - Factory Sounds OR https://www.youtube.com/watch?v=A2Rj2UxJRtU - Leroy Anderson - The Typewriter (I can't extract the music from this video, with youtube-dl I get the error `ERROR: This video is unavailable.`, no idea how to solve) 
 
+### It's time to say goodbye
 
+- Topic: (not sure about this ..., a bit depressing)
 
+- Music: https://youtu.be/tL4spj1_trI - Auld Lang Syne - Norman Luboff Choir - 0:10 - 0:37
 
-
-
-## It's time to say goodbye
-
-(not sure about this ..., a bit depressing)
-
-Music 0:10 - 0:37
-https://youtu.be/tL4spj1_trI
 
 
 
