@@ -104,6 +104,16 @@ Music and 3rd party images are not included in this repository. The links to the
 
 - Source code: ./Ulrike/Hippos/
 
+### Twitter
+
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/twitter.mp4"><img align="right" src="./Storyboard/previews/twitter.png" height="100"></a>
+
+- Topic: follow the @texdevnet channel on twitter
+
+- Music: https://www.youtube.com/watch?v=wqslA_CKub8 - The chimes of Big Ben  - 00:00:15 
+
+- Source code: ./samcarter/twitter/
+
 
 # Scenes to do:
 

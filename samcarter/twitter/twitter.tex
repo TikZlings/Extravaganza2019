@@ -1,0 +1,19 @@
+\documentclass{beamer}
+
+\usepackage{tikz}
+
+\setbeamertemplate{background canvas}{
+	\includegraphics[height=\paperheight]{bigben}
+}
+\setbeamertemplate{navigation symbols}{}
+
+\begin{document}
+	
+\begin{frame}
+	\begin{tikzpicture}[remember picture, overlay]
+		\node at (15-20*\thepage/\insertdocumentendpage,-2.5) {\includegraphics[width=6cm]{joseph}};
+	\end{tikzpicture}
+	\pause[500]
+\end{frame}	
+	
+\end{document}
