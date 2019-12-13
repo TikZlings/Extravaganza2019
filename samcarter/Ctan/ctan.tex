@@ -1,0 +1,24 @@
+\documentclass{beamer}
+
+\usepackage{tikz}
+
+\setbeamertemplate{background canvas}{
+	\begin{tikzpicture}[remember picture, overlay]
+	\node at (current page.center) {\includegraphics[height=1.05\paperheight]{Factory_and_industrial_management}};
+	\end{tikzpicture}
+}
+\setbeamertemplate{navigation symbols}{}
+
+\begin{document}
+	
+\begin{frame}
+	\begin{tikzpicture}[remember picture, overlay]
+		\node[at=(current page.center),yshift=-4cm] {\includegraphics[width=\paperwidth]{conveyor}};
+		\node at (56-100*\thepage/\insertdocumentendpage,-2.4) {\includegraphics[height=2cm]{Packages}};
+		\node[at=(current page.south),yshift=0.2cm]{%
+		\tiny\color{white}Background: \url{https://commons.wikimedia.org/wiki/File:Factory_and_industrial_management_(1891)_(14758513856).jpg}};
+	\end{tikzpicture}
+	\pause[500]
+\end{frame}	
+	
+\end{document}

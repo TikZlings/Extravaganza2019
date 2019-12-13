@@ -15,4 +15,4 @@ rm Museum-*.png
 rm Museum_raw.mp4
 
 # view :)
-#open Museum.mp4
+open Museum.mp4
