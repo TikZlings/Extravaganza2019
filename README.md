@@ -124,6 +124,18 @@ Music and 3rd party images are not included in this repository. The links to the
 
 - Source code: ./samcarter/Museum/
 
+### CTAN factory
+
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/ctan.mp4"><img align="right" src="./Storyboard/previews/ctan.png" height="100"></a>
+
+- Topic: A celebration of the CTAN team 
+
+- Music: https://youtu.be/-Ih0JJLoMIg - Factory Sounds 
+
+- Source code: ./samcarter/Ctan/
+
+
+
 
 # Scenes to do:
 
@@ -151,12 +163,6 @@ Music and 3rd party images are not included in this repository. The links to the
 or 
 
 - Topic: It seems there are some very impressive water falls in Rochester, e.g. https://commons.wikimedia.org/wiki/Category:High_Falls_of_the_Genesee_River#/media/File:Rochester_HighFalls_Night.JPG Maybe a fearless tikzduck could swim there? 
-
-### CTAN praise
-
-- Topic: A celebration of the CTAN team would be awesome, perhaps an office and a duck or another tikzling with those phone headsets and a computer to symbolize support... Then a huge gift with a card "with love, the LaTeX3 ------- I like Paulo's idea to make an office with computer etc. Maybe one could even add a tiny conveyor belt that runs into the computer with lots of ordinary brown packages and then a big and colourful L3 package between them. This could even use the cool duck gift paper from Ulrike ------ Title "CTAN factory".  Packages that run into the computer and come out again as colorful packages would be nice.  
-
-- Music: https://youtu.be/-Ih0JJLoMIg - Factory Sounds OR https://www.youtube.com/watch?v=akwfqjtBn7Y - Leroy Anderson - The Typewriter
 
 ### It's time to say goodbye
 
