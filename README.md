@@ -135,8 +135,6 @@ Music and 3rd party images are not included in this repository. The links to the
 - Source code: ./samcarter/Ctan/
 
 
-
-
 # Scenes to do:
 
 
@@ -145,6 +143,7 @@ Music and 3rd party images are not included in this repository. The links to the
 - Topic: Tikzling choir in front; background: ![](./Ulrike/choir/silentnightback.jpeg)
 
 - Music: https://youtu.be/tUSVBQ7iNio - Fischer Chöre - Stille Nacht - 0:09 - 0.33
+Better: King's singers: https://www.youtube.com/watch?v=MbhxZOOXLvU starting around 1.14
 
 - Source code: ./Ulrike/choir/
 
