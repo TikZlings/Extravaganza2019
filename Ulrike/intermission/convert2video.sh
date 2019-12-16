@@ -19,6 +19,10 @@ convert2video(){
 
 }
 
+# clean previous videos
+rm *.mp4
+
+
 # Converting
 convert2video extravaganza-2019-credits
 convert2video extravaganza-intermission-bat
@@ -33,6 +37,7 @@ convert2video extravaganza-intermission-wildwest
 convert2video extravaganza-intermission-background
 convert2video extravaganza-intermission-island
 convert2video extravaganza-intermission-particleduck
+convert2video extravaganza-intermission-finale
 
 # clean up
 rm *.aux
