@@ -1,5 +1,5 @@
 cp ../Ulrike/intermission/extravaganza-titlepage.mp4                    1.mp4
-cp ../Ulrike/choir/choir.mp4                                                  2.mp4
+cp ../Ulrike/choir/choir.mp4                                            2.mp4
 cp ../Ulrike/intermission/extravaganza-intermission-bat.mp4             3.mp4
 cp ../samcarter/Bat/bat.mp4                                             4.mp4
 cp ../Ulrike/intermission/extravaganza-intermission-hippos.mp4          5.mp4
