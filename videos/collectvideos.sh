@@ -30,3 +30,4 @@ cp ../Ulrike/intermission/extravaganza-intermission-night.mp4           23.mp4
 cp ../samcarter/NightDivine/NIghtDivine.mp4                             24.mp4
 cp ../Ulrike/intermission/extravaganza-intermission-finale.mp4          25.mp4
 cp ../Ulrike/Finale/finale.mp4                                          26.mp4
+cp ../Ulrike/intermission/extravaganza-2019-credits.mp4                 27.mp4
