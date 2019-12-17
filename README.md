@@ -135,18 +135,19 @@ Music and 3rd party images are not included in this repository. The links to the
 - Source code: ./samcarter/Ctan/
 
 
+### Silent night (organ music)
 
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/choir.mp4"><img align="right" src="./Storyboard/previews/choir.png" height="100"></a>
+
+- Topic: Tikzling choir in front; background: ![](./Ulrike/choir/silentnightback.jpeg)
+
+- Music: https://www.youtube.com/watch?v=MbhxZOOXLvU - King's singers - 1.14
+
+- Source code: ./Ulrike/choir/
 
 # Scenes to do:
 
 
-### Silent night (organ music)
-
-- Topic: Tikzling choir in front; background: ![](./Ulrike/choir/silentnightback.jpeg)
-
-- Music: https://youtu.be/tUSVBQ7iNio - Fischer Chöre - Stille Nacht - 0:09 - 0.33
-
-- Source code: ./Ulrike/choir/
 
 ### And now for something different
 

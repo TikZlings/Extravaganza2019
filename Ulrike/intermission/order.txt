@@ -1,0 +1,57 @@
+1.
+extravaganza-intermission-choir.tex
+Church of tikzlings (choir, ulrike)
+
+2.
+extravaganza-intermission-bat.tex
+The Hour of the Bat (bat, samcarter)
+
+3.
+extravaganza-intermission-hippos.tex
+Glorious Mud (hippos, ulrike)
+
+%missing
+4.
+It's time to say goodbye
+
+5.
+extravaganza-intermission-wildwest.tex
+Marmot's Theme (wildwest, ulrike)
+
+6.
+extravaganza-intermission-arts.tex
+The art lover (museum, samcarter)
+
+7.
+extravaganza-intermission-ctan.tex
+To Those who work for us (ctan, samcarter)
+
+8: Intermission (now for something ..., rochester. Details unclear)
+
+9.
+extravaganza-intermission-island.tex
+Frightful Weather (ulrike, island)
+
+10.
+extravaganza-intermission-italiana.tex
+Un' Estate Italiana (bella italia, Carla)
+
+11.
+extravaganza-intermission-twitter.tex
+Lord of TeX (twitter, samcarter)
+
+12.
+extravaganza-intermission-cat.tex
+A Cat's Dream (cat, samcarter)
+
+13.
+extravaganza-intermission-particleduck.tex
+Heisenduck (particleduck, Paulo)
+
+14.
+extravaganza-intermission-night.tex
+Night Divine (nightdivine, SamCarter)
+
+15.
+extravaganza-intermission-finale.tex
+Grand Finale (finale, ulrike)
