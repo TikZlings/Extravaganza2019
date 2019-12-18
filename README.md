@@ -145,6 +145,18 @@ Music and 3rd party images are not included in this repository. The links to the
 
 - Source code: ./Ulrike/choir/
 
+### TUG / Rochester
+
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/tug.mp4"><img align="right" src="./Storyboard/previews/tug.png" height="100"></a>
+
+- Topic: Advertisement for TUG20: ~~marching~~ swimming band of ducks in front of the Rochester skyline
+
+- Music: https://youtu.be/6HOc9WVZbts - Yankee Doodle - 0:36 - 0:50
+
+- Source code: ./samcarter/tug/
+
+
+
 # Scenes to do:
 
 
@@ -155,15 +167,7 @@ Music and 3rd party images are not included in this repository. The links to the
 
 - Music: https://youtu.be/Zk-kQSz-Qv0 - And Now For Something Completely Different clip
 
-### TUG / Rochester
 
-- Topic: Yankee Doodle; marching ducks with the Star Spangled Banner (maybe early version), background photo of Rochester, Flag https://node01.flagstat.net/media/catalog/product/detail/2082.png
-
-- Music: https://youtu.be/6HOc9WVZbts - Yankee Doodle - 0:36 - 0:50
-
-or 
-
-- Topic: It seems there are some very impressive water falls in Rochester, e.g. https://commons.wikimedia.org/wiki/Category:High_Falls_of_the_Genesee_River#/media/File:Rochester_HighFalls_Night.JPG Maybe a fearless tikzduck could swim there? 
 
 ### It's time to say goodbye
 
