@@ -19,10 +19,6 @@ convert2video(){
 
 }
 
-# clean previous videos
-rm *.mp4
-
-
 # Converting
 convert2video extravaganza-intermission-bat
 convert2video extravaganza-intermission-ctan
@@ -37,6 +33,7 @@ convert2video extravaganza-intermission-background
 convert2video extravaganza-intermission-island
 convert2video extravaganza-intermission-particleduck
 convert2video extravaganza-intermission-finale
+convert2video extravaganza-intermission-goodbye
 
 # clean up
 rm *.aux

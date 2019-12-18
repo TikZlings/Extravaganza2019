@@ -19,10 +19,6 @@ convert2video(){
 
 }
 
-# clean previous videos
-rm *.mp4
-
-
 # Converting
 convert2video extravaganza-2019-credits
 
