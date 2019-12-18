@@ -1,0 +1,42 @@
+\documentclass[margin=1pt]{standalone}
+
+\usepackage{tikz}
+\usepackage{tikzlings}
+\usepackage{tikzducks}
+
+\definecolor{dblue}{RGB}{41,38,66}
+\definecolor{dred}{RGB}{255,90,85}
+
+\usetikzlibrary {patterns.meta}
+\tikzdeclarepattern{
+  name=myStars,
+  type=uncolored,
+  bounding box={(-2pt,-2pt) and (2pt,2pt)},
+  tile size={(\tikztilesize,\tikztilesize)},
+  parameters={\tikzstarpoints,\tikzstarradius,\tikzstarrotate,\tikztilesize},
+  tile transformation={rotate=\tikzstarrotate},
+  defaults={
+    points/.store in=\tikzstarpoints,points=5,
+    radius/.store in=\tikzstarradius,radius=1pt,
+    rotate/.store in=\tikzstarrotate,rotate=0,
+    tile size/.store in=\tikztilesize,tile size=3pt,
+}, code={
+    \pgfmathparse{180/\tikzstarpoints}\let\a=\pgfmathresult
+    \fill (90:\tikzstarradius) \foreach \i in {1,...,\tikzstarpoints}{
+      -- (90+2*\i*\a-\a:\tikzstarradius/2) -- (90+2*\i*\a:\tikzstarradius)
+    } -- cycle;
+} }
+
+\begin{document}
+	
+	\begin{tikzpicture}
+		\begin{scope}[yshift=-5cm,xscale=1,xshift=9cm]
+			\duck[tshirt=dblue,cap=dblue]
+			\path[pattern=myStars,pattern color=white] \duckpathtshirt;
+			\fill[dred] \duckpathjacket;	
+			\stripes[rotate=95,color=white]
+			\node[rotate=20] at (-0.3,1.0) {\includegraphics[width=1.3cm]{trumpet}};
+		\end{scope}
+	\end{tikzpicture}
+	
+\end{document}
