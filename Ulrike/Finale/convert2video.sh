@@ -2,7 +2,7 @@
 rm finale.mp4
 
 # convert to png images
-convert -density 160 finale_combine.pdf finale.png
+convert -density 160 finale.pdf finale.png
 
 # convert to video
 ffmpeg -ss 00:00:00 -i finale-%d.png -ss 00:00:08 -i WeWishYouAMerryChristmas.m4a -shortest finale_raw.mp4
