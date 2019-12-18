@@ -155,17 +155,21 @@ Music and 3rd party images are not included in this repository. The links to the
 
 - Source code: ./samcarter/tug/
 
+### And now for something different
+
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/different.mp4"><img align="right" src="./Storyboard/previews/different.png" height="100"></a>
+
+- And Now For Something Completely Different
+
+- Music: https://youtu.be/Zk-kQSz-Qv0 - And Now For Something Completely Different
+
+- Source code: ./ulrike/intermission/extravaganza-intermission-different-tug.tex
 
 
 # Scenes to do:
 
 
 
-### And now for something different
-
-- Topic: 
-
-- Music: https://youtu.be/Zk-kQSz-Qv0 - And Now For Something Completely Different clip
 
 
 
