@@ -24,7 +24,6 @@ rm *.mp4
 
 
 # Converting
-convert2video extravaganza-2019-credits
 convert2video extravaganza-intermission-bat
 convert2video extravaganza-intermission-ctan
 convert2video extravaganza-intermission-italiana
