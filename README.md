@@ -8,85 +8,20 @@ The full video is available from ...
 Music and 3rd party images are not included in this repository. The links to the songs can be found in the file ./Storyboard2019/music.txt, links to 3rd party images are for the most part given in the code of the individual scenes.
 --->
 
-# First ideas:
 
-[link to pdf](./Storyboard/drafts/Extravaganza2019_storyboard.pdf)
+### Silent night (organ music)
 
-# Finished scenes:
+<img align="right" src="./Storyboard/previews/choir.png" height="100">
 
-### Bella Italia
+- Topic: Tikzling choir in front of rose window
 
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/BellaItalia.mp4"><img align="right" src="./Storyboard/previews/BellaItalia.png" height="100"></a>
+- Music: https://www.youtube.com/watch?v=MbhxZOOXLvU - King's singers - 1.14
 
-- Topic: Football in the middle; Gianna Nannini on top; football ducks around singing 
-
-- Music:  https://youtu.be/9oU2XCi7fQA - Un'estate italiana - Gianna Nannini & Edoardo Bennato - 1:25 - 1:55
-
-- Source code: ./Carla/Bella_Italia/
-
-### Finale
-
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/finale.mp4"><img align="right" src="./Storyboard/previews/finale.png" height="100"></a>
-
-- Topic: traditional round of tikzlings
-
-- Music: https://youtu.be/h_5rpntGmwo - We wish you a merry Christmas - Wiesbadener Knabenchor - 0:08 - 0:27
-
-- Source code: ./Ulrike/Finale/
-
-### Island
-
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/island.mp4"><img align="right" src="./Storyboard/previews/island.png" height="100"></a>
-
-- Topic: Sunny usland with palm tree, Snowman and penguins singing let is snow (it should then snow ...)
-
-- Music: https://youtu.be/vpyxTFqYHhE - Dean Martin - Let it Snow! Let it Snow! Let it Snow! - 0:08 - 0:20 
-
-- Source code: ./Ulrike/Island/
-
-### Wild West Marmot
-
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/wildwest.mp4"><img align="right" src="./Storyboard/previews/wildwest.png" height="100"></a>
-
-- Topic: Western town with marmot, background https://s-media-cache-ak0.pinimg.com/originals/5a/03/a5/5a03a528bae24b828b93524038952adc.jpg
-
-- Music: https://youtu.be/31zZL0V3r94 - Sequenz Mundharmonika - 1:30 - 1:48
-
-- Source code: ./Ulrike/WildWest/
-
-### Cats / Remembering
-
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/Cats.mp4"><img align="right" src="./Storyboard/previews/Cats.png" height="100"></a>
-
-- Topic: Night sky, large moon with a mouse, a cat singing memories.
-
-- Music: https://youtu.be/8gd_ohoPzYc - Memory - Cats the Musical - 0:00 - 0:20 
-
-- Source code: ./samcarter/Cats/
-
-### Night divine 
-
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/NightDivine.mp4"><img align="right" src="./Storyboard/previews/NightDivine.png" height="100"></a>
-
-- Topic: nativity scene with ducks 
-
-- Music: https://youtu.be/or2mMJ6_YCM - NAT KING COLE - O HOLY NIGHT - 0:06 - 0:23 
-
-- Source code: ./samcarter/NightDivine/
-
-### Particle Man
-
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/particleman.mp4"><img align="right" src="./Storyboard/previews/particleman.png" height="100"></a>
-
-- Topic:  
-
-- Music: 
-
-- Source code: ./Paulo/particleman/
+- Source code: ./Ulrike/choir/
 
 ### Bat out of hell
 
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/bat.mp4"><img align="right" src="./Storyboard/previews/bat.png" height="100"></a>
+<img align="right" src="./Storyboard/previews/bat.png" height="100">
 
 - Topic: Rockband/swirling bat
 
@@ -96,7 +31,7 @@ Music and 3rd party images are not included in this repository. The links to the
 
 ### Hippos
 
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/hippos.mp4"><img align="right" src="./Storyboard/previews/hippos.png" height="100"></a>
+<img align="right" src="./Storyboard/previews/hippos.png" height="100">
 
 - Topic: Four Hippos (2 male, 2 female)
 
@@ -104,19 +39,29 @@ Music and 3rd party images are not included in this repository. The links to the
 
 - Source code: ./Ulrike/Hippos/
 
-### Twitter
+### It's time to say goodbye
 
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/twitter.mp4"><img align="right" src="./Storyboard/previews/twitter.png" height="100"></a>
+<img align="right" src="./Storyboard/previews/goodbye.png" height="100">
 
-- Topic: follow the @texdevnet channel on twitter
+- Topic: (not sure about this ..., a bit depressing)
 
-- Music: https://www.youtube.com/watch?v=wqslA_CKub8 - The chimes of Big Ben  - 00:00:15 
+- Music: https://youtu.be/tL4spj1_trI - Auld Lang Syne - Norman Luboff Choir - 0:10 - 0:37
 
-- Source code: ./samcarter/twitter/
+- Source code: ./ulrike/goodbye/
+
+### Wild West Marmot
+
+img align="right" src="./Storyboard/previews/wildwest.png" height="100">
+
+- Topic: Western town with marmot, background https://s-media-cache-ak0.pinimg.com/originals/5a/03/a5/5a03a528bae24b828b93524038952adc.jpg
+
+- Music: https://youtu.be/31zZL0V3r94 - Sequenz Mundharmonika - 1:30 - 1:48
+
+- Source code: ./Ulrike/WildWest/
 
 ### Museum
 
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/Museum.mp4"><img align="right" src="./Storyboard/previews/Museum.png" height="100"></a>
+<img align="right" src="./Storyboard/previews/Museum.png" height="100">
 
 - Topic: a tikzling strolls through an art museum (sequal to last year)
 
@@ -126,7 +71,7 @@ Music and 3rd party images are not included in this repository. The links to the
 
 ### CTAN factory
 
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/ctan.mp4"><img align="right" src="./Storyboard/previews/ctan.png" height="100"></a>
+<img align="right" src="./Storyboard/previews/ctan.png" height="100">
 
 - Topic: A celebration of the CTAN team 
 
@@ -134,30 +79,9 @@ Music and 3rd party images are not included in this repository. The links to the
 
 - Source code: ./samcarter/Ctan/
 
-
-### Silent night (organ music)
-
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/choir.mp4"><img align="right" src="./Storyboard/previews/choir.png" height="100"></a>
-
-- Topic: Tikzling choir in front; background: ![](./Ulrike/choir/silentnightback.jpeg)
-
-- Music: https://www.youtube.com/watch?v=MbhxZOOXLvU - King's singers - 1.14
-
-- Source code: ./Ulrike/choir/
-
-### TUG / Rochester
-
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/tug.mp4"><img align="right" src="./Storyboard/previews/tug.png" height="100"></a>
-
-- Topic: Advertisement for TUG20: ~~marching~~ swimming band of ducks in front of the Rochester skyline
-
-- Music: https://youtu.be/6HOc9WVZbts - Yankee Doodle - 0:36 - 0:50
-
-- Source code: ./samcarter/tug/
-
 ### And now for something different
 
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/different.mp4"><img align="right" src="./Storyboard/previews/different.png" height="100"></a>
+<img align="right" src="./Storyboard/previews/different.png" height="100">
 
 - And Now For Something Completely Different
 
@@ -165,16 +89,82 @@ Music and 3rd party images are not included in this repository. The links to the
 
 - Source code: ./ulrike/intermission/extravaganza-intermission-different-tug.tex
 
-### It's time to say goodbye
+### TUG / Rochester
 
-<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/goodbye.mp4"><img align="right" src="./Storyboard/previews/goodbye.png" height="100"></a>
+<img align="right" src="./Storyboard/previews/tug.png" height="100">
 
-- Topic: (not sure about this ..., a bit depressing)
+- Topic: Advertisement for TUG20: ~~marching~~ swimming band of ducks in front of the Rochester skyline
 
-- Music: https://youtu.be/tL4spj1_trI - Auld Lang Syne - Norman Luboff Choir - 0:10 - 0:37
+- Music: https://youtu.be/6HOc9WVZbts - Yankee Doodle - 0:36 - 0:50
 
-- Source code: ./ulrike/goodbye/
+- Source code: ./samcarter/tug/
 
+### Island
 
+<img align="right" src="./Storyboard/previews/island.png" height="100">
 
+- Topic: Sunny usland with palm tree, Snowman and penguins singing let is snow (it should then snow ...)
 
+- Music: https://youtu.be/vpyxTFqYHhE - Dean Martin - Let it Snow! Let it Snow! Let it Snow! - 0:08 - 0:20 
+
+- Source code: ./Ulrike/Island/
+
+### Bella Italia
+
+<img align="right" src="./Storyboard/previews/BellaItalia.png" height="100">
+
+- Topic: Football in the middle; Gianna Nannini on top; football ducks around singing 
+
+- Music:  https://youtu.be/9oU2XCi7fQA - Un'estate italiana - Gianna Nannini & Edoardo Bennato - 1:25 - 1:55
+
+- Source code: ./Carla/Bella_Italia/
+
+### Twitter
+
+<img align="right" src="./Storyboard/previews/twitter.png" height="100">
+
+- Topic: follow the @texdevnet channel on twitter
+
+- Music: https://www.youtube.com/watch?v=wqslA_CKub8 - The chimes of Big Ben  - 00:00:15 
+
+- Source code: ./samcarter/twitter/
+
+### Cats / Remembering
+
+<img align="right" src="./Storyboard/previews/Cats.png" height="100">
+
+- Topic: Night sky, large moon with a mouse, a cat singing memories.
+
+- Music: https://youtu.be/8gd_ohoPzYc - Memory - Cats the Musical - 0:00 - 0:20 
+
+- Source code: ./samcarter/Cats/
+
+### Particle Man
+
+<img align="right" src="./Storyboard/previews/particleman.png" height="100">
+
+- Topic:  
+
+- Music: 
+
+- Source code: ./Paulo/particleman/
+
+### Night divine 
+
+<img align="right" src="./Storyboard/previews/NightDivine.png" height="100">
+
+- Topic: nativity scene with ducks 
+
+- Music: https://youtu.be/or2mMJ6_YCM - NAT KING COLE - O HOLY NIGHT - 0:06 - 0:23 
+
+- Source code: ./samcarter/NightDivine/
+
+### Finale
+
+<img align="right" src="./Storyboard/previews/finale.png" height="100">
+
+- Topic: traditional round of tikzlings
+
+- Music: https://youtu.be/h_5rpntGmwo - We wish you a merry Christmas - Wiesbadener Knabenchor - 0:08 - 0:27
+
+- Source code: ./Ulrike/Finale/
