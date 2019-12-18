@@ -17,6 +17,9 @@ convert2video(){
     # repair video
     HandBrakeCLI --crop 0:0:0:0 -i $1_raw.mp4 -o $1.mp4
 
+    # show
+    open $1.mp4
+
 }
 
 # Converting
