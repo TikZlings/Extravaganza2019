@@ -44,29 +44,33 @@
 			\path[pattern=myStars,pattern color=white] \duckpathtshirt;
 			\fill[dred] \duckpathjacket;	
 			\stripes[rotate=95,color=white]
+			\node at (0,0.2) {\includegraphics[width=1cm]{drum}};
 		\end{scope}
 		\begin{scope}[yshift=-3.75cm,xshift=5cm,yscale=0.8,xscale=-0.8]
 			\duck[tshirt=dblue,cap=white]
 			\path[pattern=myStars,pattern color=white] \duckpathtshirt;
 			\fill[dred] \duckpathjacket;	
 			\stripes[rotate=95,color=white]
+			\node[rotate=-20,xscale=-1] at (-0.3,1.0) {\includegraphics[width=1.1cm]{trumpet}};
 		\end{scope}		
 		\begin{scope}[yshift=-4cm,xscale=-1,xshift=-2cm]
 			\duck[tshirt=dblue,cap=dred]
 			\path[pattern=myStars,pattern color=white] \duckpathtshirt;
 			\fill[dred] \duckpathjacket;	
 			\stripes[rotate=95,color=white]
+			\node[xscale=-1] at (0,0.2) {\includegraphics[width=1.2cm]{drum}};
 		\end{scope}
 		\begin{scope}[yshift=-5cm,xscale=1,xshift=9cm]
 			\duck[tshirt=dblue,cap=dblue]
 			\path[pattern=myStars,pattern color=white] \duckpathtshirt;
 			\fill[dred] \duckpathjacket;	
 			\stripes[rotate=95,color=white]
+			\node[rotate=20] at (-0.3,1.0) {\includegraphics[width=1.3cm]{trumpet}};
 		\end{scope}
 
 		\node[at=(current page.south),yshift=0.2cm,font=\tiny\color{white}]{Background: \url{https://commons.wikimedia.org/wiki/File:Downtown_Rochester,_NY_HDR_by_patrickashley.jpg}};
 	\end{tikzpicture}
-%	\pause[50]
+	\pause[500]
 \end{frame}	
 	
 \end{document}
