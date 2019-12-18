@@ -51,7 +51,7 @@ Music and 3rd party images are not included in this repository. The links to the
 
 ### Wild West Marmot
 
-img align="right" src="./Storyboard/previews/wildwest.png" height="100">
+<img align="right" src="./Storyboard/previews/wildwest.png" height="100">
 
 - Topic: Western town with marmot, background https://s-media-cache-ak0.pinimg.com/originals/5a/03/a5/5a03a528bae24b828b93524038952adc.jpg
 
