@@ -165,19 +165,15 @@ Music and 3rd party images are not included in this repository. The links to the
 
 - Source code: ./ulrike/intermission/extravaganza-intermission-different-tug.tex
 
-
-# Scenes to do:
-
-
-
-
-
-
 ### It's time to say goodbye
+
+<a href="https://github.com/samcarter/Extravanganza2019/releases/download/video/goodbye.mp4"><img align="right" src="./Storyboard/previews/goodbye.png" height="100"></a>
 
 - Topic: (not sure about this ..., a bit depressing)
 
 - Music: https://youtu.be/tL4spj1_trI - Auld Lang Syne - Norman Luboff Choir - 0:10 - 0:37
+
+- Source code: ./ulrike/goodbye/
 
 
 
