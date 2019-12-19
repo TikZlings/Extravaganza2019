@@ -34,6 +34,7 @@ convert2video extravaganza-intermission-island
 convert2video extravaganza-intermission-particleduck
 convert2video extravaganza-intermission-finale
 convert2video extravaganza-intermission-goodbye
+convert2video extravaganza-intermission-postcredits
 
 # clean up
 rm *.aux
