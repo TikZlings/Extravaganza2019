@@ -1,0 +1,19 @@
+\documentclass{beamer}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{background canvas}{}
+
+\usepackage{pdfpages,tikz}
+
+\begin{document}
+
+	\foreach \x in {1,...,22}{
+		\includepdf[pages={1}]{extravaganza-intermission-different-tug}
+	}
+	\foreach \x in {1,...,15}{
+		\includepdf[pages={2}]{extravaganza-intermission-different-tug}
+	}
+	\foreach \x in {1,...,45}{
+		\includepdf[pages={1}]{extravaganza-intermission-different-tug}
+	}	
+		
+\end{document}

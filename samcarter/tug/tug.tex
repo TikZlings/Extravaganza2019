@@ -38,37 +38,28 @@
 	
 \begin{frame}<1->
 	\begin{tikzpicture}[remember picture, overlay]
+		
 		\node[yshift=-0.65cm,inner sep=8pt,font=\Large\bfseries\color{white}] at (current page.north) {TUG'20 -- Rochester -- summer 2020};
-		\begin{scope}[yshift=-3.25cm,xshift=7cm,scale=0.8]
-			\duck[tshirt=dblue,cap=dred]
-			\path[pattern=myStars,pattern color=white] \duckpathtshirt;
-			\fill[dred] \duckpathjacket;	
-			\stripes[rotate=95,color=white]
-			\node at (0,0.2) {\includegraphics[width=1cm]{drum}};
-		\end{scope}
-		\begin{scope}[yshift=-3.75cm,xshift=5cm,yscale=0.8,xscale=-0.8]
-			\duck[tshirt=dblue,cap=white]
-			\path[pattern=myStars,pattern color=white] \duckpathtshirt;
-			\fill[dred] \duckpathjacket;	
-			\stripes[rotate=95,color=white]
-			\node[rotate=-20,xscale=-1] at (-0.3,1.0) {\includegraphics[width=1.1cm]{trumpet}};
-		\end{scope}		
-		\begin{scope}[yshift=-4cm,xscale=-1,xshift=-2cm]
-			\duck[tshirt=dblue,cap=dred]
-			\path[pattern=myStars,pattern color=white] \duckpathtshirt;
-			\fill[dred] \duckpathjacket;	
-			\stripes[rotate=95,color=white]
-			\node[xscale=-1] at (0,0.2) {\includegraphics[width=1.2cm]{drum}};
-		\end{scope}
-		\begin{scope}[yshift=-5cm,xscale=1,xshift=9cm]
-			\duck[tshirt=dblue,cap=dblue]
-			\path[pattern=myStars,pattern color=white] \duckpathtshirt;
-			\fill[dred] \duckpathjacket;	
-			\stripes[rotate=95,color=white]
-			\node[rotate=20] at (-0.3,1.0) {\includegraphics[width=1.3cm]{trumpet}};
-		\end{scope}
-
+		
+		\node at (7,-2.25) {
+		\pgfmathparse{20*sin(\thepage)}	
+		\includegraphics[angle=\pgfmathresult,origin=c]{duck1}
+		};
+		\node at (1cm,-3.5cm) {
+		\pgfmathparse{20*sin(\thepage)}
+		\includegraphics[angle=\pgfmathresult,origin=c]{duck3}
+};
+		\node at (3cm,-2.25cm) {
+		\pgfmathparse{20*cos(\thepage)}
+		\includegraphics[angle=\pgfmathresult,origin=c]{duck2}
+};
+		\node at (9cm,-3.7cm) {
+		\pgfmathparse{20*cos(\thepage)}
+		\includegraphics[angle=\pgfmathresult,origin=c]{duck4}
+		};
+		
 		\node[at=(current page.south),yshift=0.2cm,font=\tiny\color{white}]{Background: \url{https://commons.wikimedia.org/wiki/File:Downtown_Rochester,_NY_HDR_by_patrickashley.jpg}};
+		
 	\end{tikzpicture}
 	\pause[500]
 \end{frame}	
