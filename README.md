@@ -2,12 +2,7 @@
 
 This repository contains the souce code of the Great TikZlings Extravanganza 2019, created by [Ulrike](https://github.com/u-fischer) & [Gert Fischer](https://github.com/g-fischer), [CarLaTeX](https://github.com/CarLaTeX), [Paulo Cereda](https://github.com/cereda) and [samcarter](https://github.com/samcarter).
 
-The full video is available from ...
-
-<!--- 
-Music and 3rd party images are not included in this repository. The links to the songs can be found in the file ./Storyboard2019/music.txt, links to 3rd party images are for the most part given in the code of the individual scenes.
---->
-
+The full video is available from https://vimeo.com/380684973
 
 ### Silent night (organ music)
 
