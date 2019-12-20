@@ -4,6 +4,9 @@ This repository contains the souce code of the Great TikZlings Extravanganza 201
 
 The full video is available from https://vimeo.com/380684973
 
+
+<a href="https://vimeo.com/380684973"><img src="https://user-images.githubusercontent.com/43832342/71255670-d2c7d200-232e-11ea-8978-226986f73f78.jpg" height="300"></a>
+
 ### Silent night (organ music)
 
 <img align="right" src="./Storyboard/previews/choir.png" height="100">
